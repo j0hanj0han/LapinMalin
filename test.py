@@ -1,8 +1,6 @@
-from app import johan
+
 
 
 def whoisjohan():
-
+    from app import johan
     return johan
-
-this is a test
