@@ -15,7 +15,7 @@ def hello_world():
 def test():
     return 'Hello Test!'
 
-oiuytrezhgfd
+azerty
 if __name__ == '__main__':
     app.run()
 
