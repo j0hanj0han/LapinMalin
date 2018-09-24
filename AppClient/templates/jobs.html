@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{%  block body %}
+
+
+<p> This is jobs </p>
+
+{% for job in res %}
+<div class=flash>{{ job }}</div>
+{% endfor %}
+
+
+{%  endblock %}
