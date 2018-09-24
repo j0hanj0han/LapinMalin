@@ -1,6 +1,8 @@
 import requests
 from flask import Flask, render_template
 
+from AppClient.config import SERVER_ADDRESS, PORT
+
 app = Flask(__name__)
 
 
@@ -12,8 +14,7 @@ def get_home():
 
 @app.route('/jobs')
 def get_jobs():
-    response = requests.get('http://127.0.0.1:5000/jobs')
-    print(response.json())
+    response = requests.get(SERVER_ADDRESS + '/jobs')
     res = response.json()
     return render_template('jobs.html', res=res)
 

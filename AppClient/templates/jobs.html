@@ -4,9 +4,26 @@
 
 <p> This is jobs </p>
 
-{% for job in res %}
-<div class=flash>{{ job }}</div>
-{% endfor %}
+    <table class="table table-dark">
+  <thead>
+    <tr>
+        <th scope="col">Name of the Jenkins Job</th>
+        <th scope="col">url</th>
+        <th scope="col">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+
+   {%  for job in res %}
+    <tr>
+      <td>{{ job.name }}</td>
+      <td>{{ job.url }}</td>
+      <td>{{ job.color }}</td>
+    </tr>
+  {% endfor %}
+
+  </tbody>
+</table>
 
 
 {%  endblock %}
