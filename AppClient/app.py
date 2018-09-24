@@ -19,6 +19,6 @@ def get_jobs():
     return render_template('jobs.html', res=res)
 
 
-
+#launch the API here
 if __name__ == '__main__':
     app.run(debug=True, port=4000)
