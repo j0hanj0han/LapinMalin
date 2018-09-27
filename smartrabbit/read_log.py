@@ -11,7 +11,7 @@ print("The last line is:")
 
 
 json_data = json.dumps(lineList[-1])
-#json_dict = json.loads(lineList[-1])
+
 
 new_line = ast.literal_eval(lineList[-1])
 

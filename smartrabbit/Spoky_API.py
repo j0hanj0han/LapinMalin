@@ -21,6 +21,7 @@ blue = {
 def put_spoky_color(color):
     payload = color
     response = requests.put('https://labhcs.sbx-aas.gotocloud.io/spoky/' + SPOKY_ID + '/color', verify=False, json=payload)
+    print("The new color put is " + response.json())
 
 
 # get the list of all Spoky
