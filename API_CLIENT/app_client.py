@@ -24,7 +24,7 @@ def get_settings():
         return render_template('settings.html')
 
 
-#launch the API here
+#  launch the API here
 if __name__ == '__main__':
     app.run(debug=True, port=4000)
 
