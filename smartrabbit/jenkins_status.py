@@ -3,13 +3,12 @@
 
 import jenkins
 import logging
-import json
 
 # Create and configure logger
 
-
-logging.basicConfig(filename="./smartrabbit/jenkins_status.log",
-                    format='%(asctime)s %(message)s')
+logging.basicConfig(filename="smartrabbit/jenkins_status.log",
+                    format='[%(asctime)s]:'
+                           ' %(message)s')
 
 # Creating an object
 logger = logging.getLogger()

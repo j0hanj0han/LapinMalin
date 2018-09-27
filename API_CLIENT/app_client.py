@@ -1,7 +1,7 @@
 import requests
 from flask import Flask, render_template
 
-from AppClient.config import SERVER_ADDRESS, PORT
+from API_CLIENT.config import SERVER_ADDRESS
 
 app = Flask(__name__)
 
@@ -17,6 +17,11 @@ def get_jobs():
     response = requests.get(SERVER_ADDRESS + '/jobs')
     res = response.json()
     return render_template('jobs.html', res=res)
+
+
+@app.route('/settings', methods=['GET', 'POST'])
+def get_settings():
+        return render_template('settings.html')
 
 
 #launch the API here
