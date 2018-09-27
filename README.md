@@ -1,4 +1,4 @@
-# LapinMalin
+# SMART SPOKY
 This is a Smart Rabbit Project
 
 Summary : 
