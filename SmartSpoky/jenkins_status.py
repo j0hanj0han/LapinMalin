@@ -2,8 +2,8 @@
 import json
 import jenkins
 import logging
-from smartrabbit.Spoky_API import get_spoky_color, put_spoky_color, red, blue
-from smartrabbit.config import JENKINS_ADDRESS, JENKINS_USERNAME, JENKINS_PASSWORD
+from SmartSpoky.Spoky_API import get_spoky_color, put_spoky_color, red, blue
+from SmartSpoky.config import JENKINS_ADDRESS, JENKINS_USERNAME, JENKINS_PASSWORD
 
 
 # Put the jobs status in a log file

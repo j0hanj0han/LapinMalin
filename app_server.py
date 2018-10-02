@@ -3,7 +3,7 @@ import time
 import requests
 from flask import Flask
 from flask_restplus import Api, Resource
-from smartrabbit.jenkins_status import get_jenkins_jobs, get_jenkins_jobs_loop
+from SmartSpoky.jenkins_status import get_jenkins_jobs, get_jenkins_jobs_loop
 
 app = Flask(__name__)
 api = Api(app)

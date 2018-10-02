@@ -2,7 +2,7 @@
 
 #  Spoky
 
-SPOKY_ID = '14'
+SPOKY_ID = '11'
 
 # Jenkins
 
