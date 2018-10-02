@@ -11,9 +11,9 @@
 :rabbit::rabbit::rabbit::rabbit::rabbit::rabbit::rabbit::rabbit::rabbit::rabbit::rabbit::rabbit::rabbit:
 
 Summary : 
-Spoky is a Lighting Robot which take a RGB color.
+Spoky is a Lighting Robot which takes a RGB color.
 Actually Spoky calls his own API to get the color.
-The aim of the project is to monitore Jenkin's Jobs of a team and make Spoky happy or not ('blue' if all jobs are in a success build or 'red' if any of build failed).
+The aim of the project is to monitore Jenkin's Jobs of a team and make Spoky happy or not ('blue' light if all jobs are in a success build or 'red' light if any of build failed).
 
 
 This project is a construction of 2 API in FLASK :  API server (FLASK REST+) and an API client (FLASK).
