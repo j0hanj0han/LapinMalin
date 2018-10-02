@@ -1,7 +1,7 @@
 
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
-
 [![Jenkins](https://img.shields.io/jenkins/s/https/jenkins.qa.ubuntu.com/view/Precise/view/All%20Precise/job/precise-desktop-amd64_default.svg)](http://localhost:8080/job/SmartRabbit/)
+![SonarQube](https://img.shields.io/badge/SonarQube-Quality%20Gate-brightgreen.svg)
 
 
 
