@@ -36,6 +36,6 @@ jenkins-python package : a python wrapper for Jenkin's API.
 - config.py : address, login and password for the jenkins jobs you want to monitor
             and put the Spoky's ID you want to control.
             
-- Get the SERVER started :  app_server.py on the port 5000.
+- Get the SERVER started : launch app_server.py on the port 5000.
 
-- Get the ClIENT started : launch app_client.py (in API Client folder)to check the status of Jenkins port 4000.
+- Get the CLIENT started : launch app_client.py (in API Client folder)on port 4000 to check the status of Jenkins.
