@@ -22,7 +22,7 @@ This project is a construction of 2 API in FLASK :  API server (FLASK REST+) and
 
 This project runs in an CI/CD environment integration : Jenkins/SonarQube  to get a better quality code. 
 
-##Installation 
+## Installation 
 
 
 `pip install -r requirements.txt`
@@ -30,7 +30,7 @@ This project runs in an CI/CD environment integration : Jenkins/SonarQube  to ge
 jenkins-python package : a python wrapper for Jenkin's API.
 
 
-##Quick Start
+## Quick Start
 
 
 - config.py : address, login and password for the jenkins jobs you want to monitor
