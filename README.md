@@ -8,6 +8,8 @@
 
 # SMART SPOKY
 
+:rabbit::rabbit::rabbit::rabbit::rabbit::rabbit::rabbit::rabbit::rabbit::rabbit::rabbit::rabbit::rabbit:
+
 Summary : 
 Spoky is a Lighting Robot which take a RGB color.
 Actually Spoky calls his own API to get the color.
