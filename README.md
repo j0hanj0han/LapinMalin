@@ -20,7 +20,8 @@ This project is a construction of 2 API in FLASK :  API server (FLASK REST+) and
 - The SERVER will check each Jenkin's Job status of an account  and put the Spoky Color to his own API (Spoky's API).
 - The CLIENT request the API server to get the Jenkins Status.
 
-This project runs in an CI/CD environment integration : Jenkins/SonarQube  to get a better quality code. 
+This project runs in CI/CD environment integration with Jenkins. Each commit will run a build.
+We use also Sonar to check the quality code.
 
 ## Installation 
 
@@ -33,7 +34,7 @@ jenkins-python package : a python wrapper for Jenkin's API.
 ## Quick Start
 
 
-- config.py : address, login and password for the jenkins jobs you want to monitor
+- /SmartSpoky/config.py : address, login and password for the jenkins jobs you want to monitor
             and put the Spoky's ID you want to control.
             
 - Get the SERVER started : launch app_server.py on the port 5000.
